@@ -6,7 +6,7 @@ This project is a full-stack web application that allows users to ask natural la
 
 # Data Flow Diagram  
 
-![Diagram Description](DFD/your-diagram.png)
+![Diagram Description](DFD/dfd.png)
 
 
 # Key Features
