@@ -4,6 +4,11 @@ QueryMaster converts natural language questions into SQL, querying cloud databas
 # Project Overview
 This project is a full-stack web application that allows users to ask natural language questions about structured data stored in cloud databases (Amazon RDS / Azure MySQL). The system converts these questions into SQL queries using a dynamic few-shot example matching strategy powered by Chroma DB. If a close match is found, an example SQL is used; otherwise, the system leverages OpenAI's GPT-4 alongside LangChain and LangSmith to generate the SQL query. The generated query is executed against the target database, and the SQL result is translated back into natural language for a user-friendly output. The solution also supports conversational context by integrating chat history, enabling follow-up questions to be understood in context.
 
+# Data Flow Diagram  
+
+![Diagram Description](DFD/your-diagram.png)
+
+
 # Key Features
 Natural Language Interface: Users interact with data using everyday language.  
 Dynamic Few-Shot Learning: Leverages example questions and SQL pairs stored in Chroma DB.  
